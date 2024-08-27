@@ -5,7 +5,7 @@ import plotly.express as px
 
 st.title('Relatório de Marketing de Segmentação de Consumidores de Videogames')
 
-data = pd.read_csv('segmented_videogame_data.csv')
+data = pd.read_csv('segmented.csv')
 
 st.write('Dados Segmentados', data)
 
